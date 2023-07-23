@@ -1,0 +1,19 @@
+#fc{
+    /* background-color: blue; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* #ic{
+    background-color: red;
+}
+
+#h {
+    background-color: yellow;
+}
+
+#bu {
+    background-color: blueviolet;
+} */
