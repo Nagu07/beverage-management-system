@@ -1,11 +1,86 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
 .nav-flex{
-    background-color: yellow;
+    /* background-color: yellow; */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 300;
 }
 
 .hamburger {
+    padding: 25px 15px;
     background-color: darkgreen;
 }
 
+.hamburger-line {
+    background-color: black;
+    padding: 2.5px 20px;
+    border: 1.5px;
+    margin: 5px;
+}
+
 .brand-name {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
     background-color: red;
 }
+
+.selection-panel{
+ display: flex;
+ width: 100%;
+ justify-content: space-around; 
+ position: fixed;
+ top: 10.5%; 
+ background-color: greenyellow;
+ border: 2.5px solid black;
+ padding: 25px;
+ z-index: 250;
+}
+
+.date-picker-panel {
+    width: 350px;
+}
+
+
+.sales-panel {
+    width: 350px;
+}
+
+.brand-heading {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: 350;
+}
+
+.sub-heading {
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.token-panel{
+    position: absolute;
+    top: 23%; 
+    background-color: greenyellow;
+    z-index: 200;
+   }
+
+   .token-tile {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid black;
+   }
